@@ -9,6 +9,7 @@
 
 header{
     position: fixed;
+    z-index: 1;
     color: white;
     display: flex;
     width: 100%;
@@ -111,6 +112,64 @@ header p {
     margin-left: 70px;
 }
 
+
+#filter a {
+    text-decoration: none;
+    color: #495057;
+}
+
+#filter {
+    width: 90%;
+    height: 25px;
+    display: flex;
+    gap: 35px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+#filter a:hover{
+    color: #AA1C22;
+}
+
+.card  p{
+    font-size: 12px;
+    color:#6C757D;
+}
+
+.card h5 {
+    font-size: 18px;
+    color: #495057;
+}
+
+.desc {
+    display: flex;
+}
+
+.p-desc {
+    margin-left: 15px
+}
+
+#div-card{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+
+#view-all {
+    margin-left: auto;
+}
+
+.topics {
+    margin-top: 70px;
+}
+
+.topics h1 {
+    margin-left: 50px;
+}
+
 @media screen and (max-width: 976px) {
 
     .nav-bar{
@@ -146,11 +205,40 @@ header p {
         text-align: center;
     }
 
+    .div-img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+    }
+
+    p#sep {
+        display: none;
+    }
+
     .div-img p {
         font-size: 13px;
+        margin: 10px;
     }
 
     .description{
         margin-left: 5px;
     }
+
+    #filter {
+        width: auto;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+
+    .topics h1 {
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+
 }
+
