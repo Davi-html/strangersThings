@@ -55,6 +55,7 @@ header p {
 
 .main-img{
     background-image: url(/assets/Image-stranger.png);
+    background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
     display: flex;
@@ -164,10 +165,23 @@ header p {
 
 .topics {
     margin-top: 70px;
+    margin-bottom: 18rem;
 }
 
 .topics h1 {
     margin-left: 50px;
+}
+
+#last-section {
+    background-image: url(/assets/Image.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 @media screen and (max-width: 976px) {
