@@ -184,6 +184,57 @@ header p {
     flex-direction: column;
 }
 
+footer {
+    color: white;
+    width: 100%;
+    min-height: 400px;
+    background-color: #212529;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 50px;
+}
+
+footer a  {
+    text-decoration: none;
+    color: white;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact p {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.explorate {
+    display: flex;
+    flex-direction: column;
+}
+
+.explorate p {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.headquarter #title{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.connections p {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
+}
+
 @media screen and (max-width: 976px) {
 
     .nav-bar{
